@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hosterr- Landing Page</title>
+</head>
+<body>
+    <div class="primaryContainer w-full px-2 mt-10 md:mt-14 mx-auto lg:max-w-5xl md:max-w-4xl max-w-[90%]">
+        <div class="navBarContainer flex justify-between items-center lg:text-xl md:text-lg">
+            <div class="logoContainer flex">
+                <img src="./Assets/Logo.svg" alt="Hosterr">
+                <a href="#" class="btn ml-4 rounded-xl bg-gradient-to-l from-fuchsia-400 to-amber-400 px-2 text-white text-xs font-medium flex items-center">Hosterr is Hiring!</a>
+            </div>
+            <div class="optionsExpanded md:flex items-center justify-around hidden">
+                <a href="#" class="navOption mx-2">Plans</a>
+                <a href="#" class="navOption mx-2">Find Domain</a>
+                <a href="#" class="navOption mx-2">Why Hosterr</a>
+            </div>
+            <div class="navSign hidden md:flex items-center justify-around">
+                <a href="#" class="navOption mx-2">Sign in</a>
+                <a href="#" class="navOption btn bg-blue-500 text-white p-4 rounded-lg font-medium">Join Waitlist</a>
+            </div>
+            <div class="hamburgerContainer md:hidden">
+                <img src="./Assets/Hamburger Menu.svg" alt="">
+            </div>
+        </div>
+        <div class="bodyContainer flex flex-col-reverse md:flex-row md:mt-[200px] mt-[125px]">
+            <div class="left md:w-1/2 mt-[300px] sm:mt-[420px] md:mt-0">
+                <h2 class="text-4xl md:text-6xl font-bold text-start">Host your website in less than 5 minutes.</h2>
+                <p class="text-lg md:text-xl text-slate-600 mt-8">With Hosterr, get your website up and running in no less than 5 minutes with the most competitive pricing packages available online.</p>
+                <div class="emailCollector flex mt-10">
+                    <input type="email" placeholder="Enter your Email" class="rounded-l-lg px-4 w-[70%]">
+                    <button class="text-white bg-blue-500 rounded-r-lg p-4 w-[20%]">Join Waitlist</button>
+                </div>
+                <p class="text-lg md:text-xl text-slate-600 mt-8 flex"><img src="./Assets/Checkmark.svg" alt="" class="mr-2"> No spam, ever. Unsubscribe anytime.</p>
+            </div>
+            <div class="left md:w-1/2 ">
+                <img src="./Assets/Blue Shape.svg" alt=""  class="absolute w-[50%] md:w-[30%] rotate-[-30deg] md:translate-x-1/2 translate-x-[40%]">
+                <img src="./Assets/Purple Shape.svg" alt=""  class="absolute w-[50%] md:w-[30%] rotate-[-20deg] md:translate-x-1/2 translate-x-[40%]">
+                <img src="./Assets/Pink Shape.svg" alt=""  class="absolute w-[50%] md:w-[30%] rotate-[-10deg] md:translate-x-1/2 translate-x-[40%]">
+                <img src="./Assets/Hero Image (Model).png" alt="" class="absolute w-[50%] md:w-[30%]  md:translate-x-1/2 translate-x-[40%]">
+            </div>
+        </div>
+        <div class="footerContainer mt-[200px] mb-[50px] md:flex justify-between">
+            <div class="socialContainer text-slate-600 font-medium text-xl">
+                <a href="#" class="mr-2">Facebook</a>
+                <a href="#" class="mr-2">Instagram</a>
+                <a href="#" class="mr-2">Twitter</a>
+            </div>
+            <div class="questionsBox flex md:mt-0 mt-12">
+                <div class="specialistImg">
+                    <img src="./Assets/Help Avatar.svg" alt="">
+                </div>
+                <div class="questionsRight ml-2">
+                    <p class="text-xl">Have any Questions?</p>
+                    <p class="font-bold text-lg">Talk to a specialist</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

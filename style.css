@@ -1,0 +1,11 @@
+:root{
+    --primaryBG: #f9f4e8;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--primaryBG);
+}
+*{
+    box-sizing: border-box;
+}
